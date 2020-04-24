@@ -1,0 +1,4 @@
+{{ $cfg := . }}
+{{ $reports := .Reports }}
+  ---------------------
+Report Generation Time: {{ $cfg.TimeGenerated }}
